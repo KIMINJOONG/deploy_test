@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div>
-      <ul data-uk-tab>
+      <ul className="uk-tab">
         <li>
-          <Link to="/">Movie</Link>
+          <Link to="/">Moive</Link>
         </li>
         <li>
           <Link to="/tv">Tv</Link>

@@ -9,6 +9,7 @@ import Home from "../Home";
 import Header from "./Header";
 import Detail from "../Detail";
 import Tv from "../Tv";
+import Search from "../Search";
 
 const Rotue = () => {
   return (
@@ -21,6 +22,7 @@ const Rotue = () => {
               <Route path="/" exact component={Home} />
               <Route path="/tv" exact component={Tv} />
               <Route path="/movie/:id" component={Detail} />
+              <Route path="/search" component={Search} />
               <Redirect from="*" to="/" />
             </Switch>
           </div>
